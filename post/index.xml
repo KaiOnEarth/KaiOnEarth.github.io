@@ -6,7 +6,7 @@
     <description>Recent content in Posts on HZK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/KaiOnEarth&#34;&gt;HZK&lt;/a&gt; 2020</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/KaiOnEarth&#34;&gt;KaiOnEarth&lt;/a&gt; 2020</copyright>
     <lastBuildDate>Sat, 05 Sep 2020 21:12:25 -0700</lastBuildDate>
     
 	<atom:link href="https://kaionearth.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -21,7 +21,7 @@
       <description>步骤1. 安装 Hugo (Mac平台) 在终端使用Homebrew安装Hugo:
 $ brew install hugo  对于Windows和Linux用户，请参考官方安装指导。
 步骤2. 通过Hugo创建博客项目 在终端输入如下命令:
-$ hugo new site myblog  该命令会在当前目录下自动生成一个名叫myblog的文件夹
+$ hugo new site myblog  该命令会在当前目录下自动生成一个名叫myblog的文件夹。
 步骤3. 挑选一个喜爱的主题 在Hugo官网下有大量主题供选择，可以挑选一个自己喜爱的主题，并将其下载至上一步生成文件夹myblog的子文件夹themes中。在大多数情况下，主题文件夹会提供名为config.toml的文件，将其拷贝至myblog文件夹下。
 步骤4. 编写第一篇个人文章 在终端输入如下命令:
 $ hugo new post/my-first-post.md  该命令会在目录：/myblog/content/post/ 自动生成名为my-first-post.md的Markdown文件，打开后可编写文章内容，完成后保存。
