@@ -1,0 +1,12 @@
+* {
+    font-family: Roboto, Helvetica, Tahoma, Arial, 
+    "PingFang SC", "Hiragino Sans GB", 
+    "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", 
+    sans-serif;
+}
+
+code,
+pre {
+    font-family: JetBrainsMono, "Source Code Pro", Monaco, Menlo, Consolas, "Courier New", Courier, monospace;
+}
+

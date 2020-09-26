@@ -18,15 +18,16 @@
       <pubDate>Sat, 05 Sep 2020 21:12:25 -0700</pubDate>
       
       <guid>https://kaionearth.github.io/post/09-05-2020/</guid>
-      <description>步骤1. 安装 Hugo (Mac平台) 在终端使用Homebrew安装Hugo:
-$ brew install hugo  对于Windows和Linux用户，请参考官方安装指导。
-步骤2. 通过Hugo创建博客项目 在终端输入如下命令:
-$ hugo new site myblog  该命令会在当前目录下自动生成一个名叫myblog的文件夹。
-步骤3. 挑选一个喜爱的主题 在Hugo官网下有大量主题供选择，可以挑选一个自己喜爱的主题，并将其下载至上一步生成文件夹myblog的子文件夹themes中。在大多数情况下，主题文件夹会提供名为config.toml的文件，将其拷贝至myblog文件夹下。
-步骤4. 编写第一篇个人文章 在终端输入如下命令:
-$ hugo new post/my-first-post.md  该命令会在目录：/myblog/content/post/ 自动生成名为my-first-post.md的Markdown文件，打开后可编写文章内容，完成后保存。
-步骤5. 本地运行博客 继续在终端敲击如下命令:
-$ hugo serve -D  在浏览器中打开localhost:1313，即可跳转到新创建的个人博客。推荐可将其部署到免费的Github Pages下。</description>
+      <description>&lt;h2 id=&#34;步骤1-安装-hugo-mac平台&#34;&gt;步骤1. 安装 Hugo (Mac平台)&lt;/h2&gt;
+&lt;p&gt;在终端使用&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;安装Hugo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$   brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;对于Windows和Linux用户，请参考&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;官方安装指导&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;步骤2-通过hugo创建博客项目&#34;&gt;步骤2. 通过Hugo创建博客项目&lt;/h2&gt;
+&lt;p&gt;在终端输入如下命令:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$   hugo new site myblog
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;该命令会在当前目录下自动生成一个名叫myblog的文件夹。&lt;/p&gt;</description>
     </item>
     
   </channel>
