@@ -25,18 +25,18 @@
     
     <item>
       <title>如何使用Hugo搭建个人博客</title>
-      <link>https://kaionearth.github.io/post/09-05-2020/</link>
+      <link>https://kaionearth.github.io/post/9-05-2020/</link>
       <pubDate>Sat, 05 Sep 2020 21:12:25 -0700</pubDate>
       
-      <guid>https://kaionearth.github.io/post/09-05-2020/</guid>
+      <guid>https://kaionearth.github.io/post/9-05-2020/</guid>
       <description>&lt;h2 id=&#34;步骤1-安装-hugo-mac平台&#34;&gt;步骤1. 安装 Hugo (Mac平台)&lt;/h2&gt;
 &lt;p&gt;在终端使用&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;安装Hugo:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$   brew install hugo
+&lt;pre&gt;&lt;code&gt;brew install hugo
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;对于Windows和Linux用户，请参考&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;官方安装指导&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;步骤2-通过hugo创建博客项目&#34;&gt;步骤2. 通过Hugo创建博客项目&lt;/h2&gt;
 &lt;p&gt;在终端输入如下命令:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$   hugo new site myblog
+&lt;pre&gt;&lt;code&gt;hugo new site myblog
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;该命令会在当前目录下自动生成一个名叫myblog的文件夹。&lt;/p&gt;</description>
     </item>

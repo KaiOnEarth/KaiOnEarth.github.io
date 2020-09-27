@@ -106,28 +106,28 @@ Apple的XCode包含了使用brew所必须的命令行工具，可在App Store免
 <p>Apple的XCode包含了使用brew所必须的命令行工具，可在App Store免费下载</p>
 <h4 id="安装homebrew">安装Homebrew</h4>
 <p>Mac OS系统并没有默认提供Homebrew, 我们可在Homebrew<a href="https://brew.sh/#install">官方指导</a>获取下载帮助。或是在终端运行如下指令：</p>
-<pre><code>$    /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;
+<pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;
 </code></pre>
 <h2 id="步骤1-追踪mongodb的官方brew仓库">步骤1. 追踪MongoDB的官方brew仓库</h2>
 <p>在终端运行如下指令追踪获取MongoDB的官方brew仓库</p>
-<pre><code>$   brew tap mongodb/brew
+<pre><code>brew tap mongodb/brew
 </code></pre>
 <h2 id="步骤2-安装">步骤2. 安装</h2>
 <p>@后的数字为最新版本号。在2020年9月，最新的版本号为4.4</p>
-<pre><code>$   brew install mongodb-community@4.4
+<pre><code>brew install mongodb-community@4.4
 </code></pre>
 <h2 id="步骤3-运行和停止运行">步骤3. 运行和停止运行</h2>
-<pre><code>#   运行
-$   brew services start mongodb-community@4.4
-
-#   停止运行
-$   brew services stop mongodb-community@4.4
+<p>运行</p>
+<pre><code>brew services start mongodb-community@4.4
+</code></pre>
+<p>停止运行</p>
+<pre><code>brew services stop mongodb-community@4.4
 </code></pre>
 <h2 id="步骤4-检查mongodb是否在运行">步骤4. 检查MongoDB是否在运行</h2>
-<pre><code>$   ps aux | grep -v grep | grep mongod
+<pre><code>ps aux | grep -v grep | grep mongod
 </code></pre>
 <h2 id="步骤5-连接并使用mongodb">步骤5. 连接并使用MongoDB</h2>
-<pre><code>$   mongo
+<pre><code>mongo
 </code></pre>
       
     </div>
